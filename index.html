@@ -248,18 +248,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- Left side columns -->
         <div class="col-lg-8">
           <div class="row">
@@ -376,8 +364,12 @@
 
             <!-- prescription -->
 
+
             <div class="col-12">
-              <div class="card">
+              <div class="card recent-sales overflow-auto">
+
+            
+
                 <div class="card-body">
                   <h5 class="card-title" id="pr">Prescription</h5>
 
@@ -450,21 +442,19 @@
                     </tbody>
                   </table>
 
+                </div>
 
               </div>
-            </div></div></div><!-- End prescription -->
+            </div>
+            <!-- Prescription -->
 
-           
-
-      
-
-           
 
             <!-- Medical visits -->
-            
 
             <div class="col-12">
-              <div class="card">
+              <div class="card recent-sales overflow-auto">
+
+              
 
                 <div class="card-body">
                   <h5 class="card-title" id="mv">Medical visits</h5>
@@ -542,145 +532,157 @@
                     </tbody>
                   </table>
 
-                
-            </div></div></div><!-- Medical visits -->
+                </div>
 
+              </div>
+            </div>
 
-
-
-
-           
-
-                <!-- Surgeries -->
+                <!-- Medical visits -->
+                  <!-- Surgeries -->
                 <div class="col-12">
-                  <div class="card">
-                <div class="card-body ">
-                  <h5 class="card-title" id="su">Surgeries</h5>
-
-                  <table class="table table-borderless">
-                    <thead>
-                      <tr>
-                        <th scope="col">Surgery</th>
-                        <th scope="col">Dr_name</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Date</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Open heart surgery</td>
-                        <td>Yasser Al-Nahhas</a></td>
-                        <td>Septal myotomy : Excision of a portion of the thickened, enlarged wall (septum) separating the chambers of the heart. To improve blood flow out of the heart </a></td>
-                        <td>04/06/2022</a></td>
-                      </tr>
-
-                      <tr>
-                        <td>Cardiac catheterization</a></td>
-                        <td>Yasser Al-Nahhas</a></td>
-                        <td>Guide a thin, flexible tube to treat blocked arteries</a></td>
-                        <td>25/02/2023</a></td>
-                      </tr>
-                      <tr>
-                        <td>Mounting screws</a></td>
-                        <td>Hamdi Al-Hadidi</a></td>
-                        <td> Fracture of the leg bone</a></td>
-                        <td>01/12/2022</a></td>
-                      </tr>
+                  <div class="card recent-sales overflow-auto">
+    
+                   
+    
+                    <div class="card-body">
+                      <h5 class="card-title" id="su">Surgeries</h5>
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">Surgery</th>
+                            <th scope="col">Dr_name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Date</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Open heart surgery</td>
+                            <td>Yasser Al-Nahhas</a></td>
+                            <td>Septal myotomy : Excision of a portion of the thickened, enlarged wall (septum) separating the chambers of the heart. To improve blood flow out of the heart </a></td>
+                            <td>04/06/2022</a></td>
+                          </tr>
+    
+                          <tr>
+                            <td>Cardiac catheterization</a></td>
+                            <td>Yasser Al-Nahhas</a></td>
+                            <td>Guide a thin, flexible tube to treat blocked arteries</a></td>
+                            <td>25/02/2023</a></td>
+                          </tr>
+                          <tr>
+                            <td>Mounting screws</a></td>
+                            <td>Hamdi Al-Hadidi</a></td>
+                            <td> Fracture of the leg bone</a></td>
+                            <td>01/12/2022</a></td>
+                          </tr>
+                          
+                          <tr>
+                            <td>Knee cartilage</a></td>
+                            <td>Hamdi Al-Hadidi</a></td>
+                            <td>The goal of knee cartilage surgery is to maintain healthy cartilage tissue</a></td>
+                            <td>02/05/2023</a></td>
+                          </tr>
+                          
+    
+    
+                        </tbody>
+                      </table>
                       
-                      <tr>
-                        <td>Knee cartilage</a></td>
-                        <td>Hamdi Al-Hadidi</a></td>
-                        <td>The goal of knee cartilage surgery is to maintain healthy cartilage tissue</a></td>
-                        <td>02/05/2023</a></td>
-                      </tr>
+    
+                    </div>
+    
+                  </div>
+                </div>
+                 <!-- Surgeries -->
+
+
+
+            <!--  checkups-->
+
+                 <div class="col-12">
+                  <div class="card recent-sales overflow-auto">
+    
+                  
+                        <div class="card-body">
+                      <h5 class="card-title" id="mv">Checkups</h5>
+                      <table class="table table-borderless datetable">
+                        <thead>
+                          <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Type</th>
+                            <th scope="col" id="di">Description</th>
+                            <th scope="col">Result</th>
+                            <th scope="col">File</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">01/01/2022</th>
+                            <td>Test</td>
+                            <td>NA</td>
+                            <td>136 | Low sodium ratio </td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+                          <tr>
+                            <td scope="row">25/02/2023</th>
+                              <td>Test</td>
+                            <td>ESR</td>
+                            <td>High sodium ratio</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+                          <tr>
+                            <td scope="row">05/12/2022</th>
+                              <td>test</td>
+                            <td>Cholesterol test</td>
+                            <td>High Cholesterol ratio.</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+                          <tr>
+                            <td scope="row">13/03/2023</th>
+                              <td>Rays</td>
+                            <td>Electrocardiogram</td>
+                            <td>Cardiac arrhythmias: cardiomyopathy.</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+                          <tr>
+                            <td scope="row">30/01/2023</th>
+                              <td>Rays</td>
+                            <td>X-rays</td>
+                            <td>Cardiomegaly.</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+          
+                          <tr>
+                            <td scope="row">19/06/2022</th>
+                              <td>Rays</td>
+                            <td>Echocardiogram</td>
+                            <td>Blood leaks backward into the heart valves.</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+                          <tr>
+                            <td scope="row">006/03/2023</th>
+                              <td>Rays</td>
+                            <td>MRI</td>
+                            <td>Monitor the condition of the heart before and after surgery</td>
+                            <td><span id="filelink" class="badge ">File link</span></td>
+          
+                          </tr>
+          
+                        </tbody>
+                      </table>
                       
-
-
-                    </tbody>
-                  </table>
-
-                </div></div></div>
-                <!--  Surgeries -->
-              
-               <!-- Tests -->
-               <div class="col-12">
-                <div class="card">
-          <div class="card-body">
-            <h5 class="card-title" id="mv">Checkups</h5>
-
-            <table class="table table-borderless datetable">
-              <thead>
-                <tr>
-                  <th scope="col">Date</th>
-                  <th scope="col">Type</th>
-                  <th scope="col" id="di">Description</th>
-                  <th scope="col">Result</th>
-                  <th scope="col">File</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td scope="row">01/01/2022</th>
-                  <td>Test</td>
-                  <td>NA</td>
-                  <td>136 | Low sodium ratio </td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">25/02/2023</th>
-                    <td>Test</td>
-                  <td>ESR</td>
-                  <td>High sodium ratio</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">05/12/2022</th>
-                    <td>test</td>
-                  <td>Cholesterol test</td>
-                  <td>High Cholesterol ratio.</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">13/03/2023</th>
-                    <td>Rays</td>
-                  <td>Electrocardiogram</td>
-                  <td>Cardiac arrhythmias: cardiomyopathy.</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">30/01/2023</th>
-                    <td>Rays</td>
-                  <td>X-rays</td>
-                  <td>Cardiomegaly.</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-
-                <tr>
-                  <td scope="row">19/06/2022</th>
-                    <td>Rays</td>
-                  <td>Echocardiogram</td>
-                  <td>Blood leaks backward into the heart valves.</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-                <tr>
-                  <td scope="row">006/03/2023</th>
-                    <td>Rays</td>
-                  <td>MRI</td>
-                  <td>Monitor the condition of the heart before and after surgery</td>
-                  <td><span id="filelink" class="badge ">File link</span></td>
-
-                </tr>
-
-              </tbody>
-            </table>
-
-          </div></div></div><!-- End checkups-->
+    
+                    </div>
+    
+                  </div>
+                </div>
+            <!-- End checkups-->
             
            
 
